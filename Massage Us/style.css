@@ -1,0 +1,126 @@
+.logo {
+    position: absolute;
+    top: 10px;
+    width: 60px; /* Atur sesuai kebutuhan */
+    z-index: 10;
+    margin-bottom : 20px;
+    margin-top: 0px;
+    margin-right: 6px;
+    margin-left: 10px;
+
+}
+.garis {
+    border: 1px;
+    height: 1px;
+    background: hsl(0, 0%, 20%);
+    margin-top: 20px;
+}
+#C {
+    text-align: auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.menu a {
+    display: inline-block;
+    width: 100px;           /* Ukuran box sama */
+    text-align: center;     /* Teks di tengah */
+    padding: 6px 0;
+    background: #fff;
+    color: #000000;
+    border: 2px solid #6c6666;
+    border-radius: 0;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: inherit;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+    box-sizing: border-box;
+    margin-top: 17px;
+    margin-right: 0px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Jarak antar menu sudah diatur di .menu a */
+    margin-left: 0px;
+    gap: 0px;
+    margin-right: 20px; /* Jarak dari tepi kanan */
+    margin-top: 12px;
+}
+
+.menu a:hover {
+    background: #f2f2f2;
+    color: #000000;
+    border-color: #222;
+}
+.form-row {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.form-row label {
+    width: 110px; /* atur lebar label */
+    font-size: 16px;
+}
+
+.form-row span {
+    margin: 1px 5px;
+    font-size: 18px;
+}
+
+.form-row input,
+.form-row textarea {
+    flex: 1;
+    max-width: 350px;
+    padding: 6px 10px;
+    font-size: 16px;
+    border: 1,5px solid #1b191941;
+    border-radius: 5px;
+    cursor: text;
+}
+.radio-group {
+    display: flex;
+    gap: 10px;  /* Jarak antar radio dan label */
+    align-items: center;
+    
+}
+.radio-group input[type="radio"]:checked {
+    accent-color: #000;
+}
+#Jenis {
+    display: flex;
+    gap: 10px; /* Jarak antar radio dan label */
+    align-items: center;
+    cursor: pointer;
+}
+#tanggallahir{
+    position: absolute;
+    cursor: pointer;
+}
+.pesan{
+    vertical-align: top;
+    padding-top: 0px;
+    gap: 0px;
+    text-align: left;
+}
+#Kirim {
+    background-color: #f5f3f3;
+    color: #1b0202;
+    border: 2 #000;
+    justify-content: center;
+    padding: 10px 2%;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 10px;
+    margin-left: 135px;
+}
