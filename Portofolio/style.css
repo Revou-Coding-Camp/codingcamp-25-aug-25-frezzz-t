@@ -59,3 +59,28 @@
     border-color: #222;
 }
 
+.portfolio-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Mengatur kartu agar bisa ke baris baru jika layar sempit */
+    margin: 20px 0;
+}
+
+.portfolio-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
+}
+
+.portfolio-card h3 {
+    margin-top: 0;
+    color: #333;
+}
+h2 {
+  font-weight: bold;   /* atau 600 / 700 */
+  font-size: 1.5rem;   /* bisa disesuaikan */
+  margin-bottom: 10px; /* spasi biar rapi */
+}

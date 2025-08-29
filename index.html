@@ -4,17 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/style.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>RevoU Mini-Project</title>
 </head>
 <body>
-    <img src="Assets/RevoU Logo.png" alt="RevoU Logo" class="logo">
+    <header>
+        <img src="Assets/RevoU Logo.png" alt="RevoU Logo" class="logo">
     <nav class="menu">
-    <a href="#">Home</a>
-    <a href="#">Our Profile</a>
-    <a href="#">Portofolio</a>
-    <a href="../Massage Us/contact.html">Message Us</a>
+        <a href="../index.html">Home</a>
+        <a href="../Our Profile/Our.html">Our Profile</a>
+        <a href="../Portofolio\Port.html">Portofolio</a>
+        <a href="../Massage Us/contact.html">Message Us</a>
     </nav>
-<hr class="garis"/>
-<h1>Hi, Welcome to my mini RevoU project</h1>
+    <hr class="garis"/>
+    </header>
+    <main>
+        <section id="home-page" class="min-h-[500px]">
+                <h2 class="text-center text-[24px] font-bold py-[16px]">
+                    Hi <span id="username"></span> , Welcome to Our Website
+                </h2>
+
+            <p>
+                We are a team of dedicated professionals committed to delivering high-quality services to our clients.
+            </p>
+        </section>
+    </main>
+    <hr/>
+    <footer class="text-center">
+        <p>&copy; 2025 Frezz-t Project. All rights reserved.</p>
+    </footer>
+    <script src="../js/script.js"></script>
 </body>
 </html
