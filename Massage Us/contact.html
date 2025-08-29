@@ -19,36 +19,49 @@
     </nav>
     <hr class="garis"/>
     <h1 id="C">Massage Us</h1>
-    <form>
-    <div class="form-row">
-        <label for="nama">Nama</label>
-        <span>:</span>
-        <input type="text" name="nama" id="nama" placeholder="Masukkan Nama Anda"><br/>
-    </div>
-    <div class="form-row">
-        <label for="tanggal lahir">Tanggal Lahir</label>
-        <span>:</span>
-        <input type="date" name="tanggal lahir" id="tanggal" placeholder="tanggal lahir"><br/>
-    </div>
-    <div class="form-row">
+
+    <div class="container">
+  <div class="form-section">
+        <form>
+            <div class="form-row">
+                <label for="name-input">Nama</label>
+                <span>:</span>
+                <input type="text" id="name-input" placeholder="Masukkan Nama Anda"><br/>
+            </div>
+             <div class="form-row">
+                <label for="tanggal">Tanggal Lahir</label>
+                <span>:</span>
+                <input type="date" name="tanggal lahir" id="tanggal" placeholder="tanggal lahir"><br/>
+            </div>
+             <div class="form-row">
                     <label>Jenis Kelamin</label>
                     <span>:</span>
-        <div class="radio-group">
-                    <input type="radio" id="Jenis" value="perempuan" name="Jenis Kelamin">Perempuan
-                    <input type="radio" id="Jenis" value="laki-laki" name="Jenis Kelamin">Laki-Laki
+                        <div class="radio-group">
+                            <input type="radio" id="perempuan" value="Perempuan" name="gender">Perempuan
+                            <input type="radio" id="laki-laki" value="Laki-Laki" name="gender">Laki-Laki
                 <br/>
             
-        </div>
-    </div>
-    <div class="form-row">
-            <label class="pesan">Pesan</label>
-            <span>:</span>
+             </div>
+            </div>
+            <div class="form-row">
+                <label class="pesan">Pesan</label>
+                <span>:</span>
                 <textarea name="pesan" id="pesan" cols="10" rows="10" placeholder="Tulis Pesan Anda"></textarea><br/>
-    </div>
+            </div>
+            <div class="form-row">
+                 <button type="button" onclick="validateForm();" id="Kirim">Send Message</button>
+            </div>
+        </form>
+        </div>
 
+    <div class="output-section">
+        <p id="output"></p>
     </div>
-    <div class="form-row">
-        <input type="submit" value="submit" id="Kirim"/>
     </div>
-    </form>
+</body>
+        <hr/>
+    <footer class="text-center">
+        <p>&copy; 2025 Frezz-t Project. All rights reserved.</p>
+    </footer>
+    <script src="../Massage Us/script.js"></script>
 </html>

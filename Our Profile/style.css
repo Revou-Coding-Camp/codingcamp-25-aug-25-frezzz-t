@@ -61,4 +61,13 @@
 
 .text-center {
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.garis {
+    border: 1px;
+    height: 1px;
+    background: hsl(0, 0%, 20%);
+    margin-top: px;
+    margin-bottom: 0px;
 }

@@ -95,7 +95,7 @@
 .radio-group input[type="radio"]:checked {
     accent-color: #000;
 }
-#Jenis {
+#laki-laki, #perempuan {
     display: flex;
     gap: 10px; /* Jarak antar radio dan label */
     align-items: center;
@@ -121,6 +121,39 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 10px;
+    width: 350px;
     margin-left: 135px;
+}
+.text-center {
+    text-align: center;
+}
+.output-section {
+    flex: 1;
+    margin-top: 0px;
+    margin-right: 23px;
+    margin-left: 4px;
+    max-width: 250px;
+    padding: 179px;
+    border: 1px solid #0a0a0a;
+    border-radius: 1px;
+    background-color: #ffffff;
+    text-align: center;
+}
+#output {
+    font-size: 15px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    float: inline-end;
+}
+.form-section {
+    flex: 1;
+    margin-right: 20px; /* Jarak antara form dan output */
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin-top: 20px;
 }
